@@ -5,7 +5,7 @@ const LibraryModule = {
 
   install(Vue) {
     // Register components with vue
-    Vue.component("Finder", Finder);
+    Vue.component("VFinder", Finder);
   },
 };
 

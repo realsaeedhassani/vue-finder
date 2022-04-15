@@ -33,7 +33,7 @@ function renderItems(h, { props, expandedItemIndex }) {
       options={props.options}
       tabindex={index === expandedItemIndex ? "0" : "-1"}
     >
-      {item.label}
+      {item.title}
     </FinderItem>,
   ]);
 }
